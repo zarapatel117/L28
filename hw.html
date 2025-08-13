@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Error handling
+        </title>
+    </head>
+    <body>
+        <p>This is Error handling</p>
+        <p id="result"></p>
+        <script>
+            try{
+            addalert("Hi welcome to my hw")
+            }
+            catch(err){
+                document.getElementById("result").innerHTML= err.message;
+            }
+        </script>
+    </body>
+</html>
